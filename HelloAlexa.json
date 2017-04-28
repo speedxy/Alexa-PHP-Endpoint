@@ -1,0 +1,60 @@
+{
+  "intents": [
+    {
+      "name": "AMAZON.CancelIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.HelpIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.StopIntent",
+      "samples": []
+    },
+    {
+      "name": "CoffeeIntent",
+      "samples": [
+        "{answer}"
+      ],
+      "slots": [
+        {
+          "name": "answer",
+          "type": "YesNo",
+          "samples": []
+        }
+      ]
+    },
+    {
+      "name": "NameIntent",
+      "samples": [
+        "{name}",
+        "my name is {name}"
+      ],
+      "slots": [
+        {
+          "name": "name",
+          "type": "AMAZON.US_FIRST_NAME",
+          "samples": []
+        }
+      ]
+    }
+  ],
+  "types": [
+    {
+      "name": "YesNo",
+      "values": [
+        {
+          "name": {
+            "value": "yes"
+          }
+        },
+        {
+          "name": {
+            "value": "no"
+          }
+        }
+      ]
+    }
+  ]
+}
