@@ -39,7 +39,7 @@ Alexa::exits(function() {
 ```
 
 ## Documentation?
-[Read the library's documentation here]().
+[Read the library's documentation here](https://github.com/MayBeTall/Alexa-PHP-Endpoint/tree/master/alexa-endpoint/docs).
 
 ## Can I use this for production environments?
 This project is intended to be used by developers looking to have fun with Alexa. Maybe to intergrate her with some APIs, like Toggl's or Jira's. I wouldn't trust it for anything big - and I created it.
@@ -114,4 +114,4 @@ Alright, we got everything we need? Good.
     * This just skips to the CoffeeIntent, which isn't meant to be jumped straight to, but we can anyways.
 
 ## Step 6: Make your own projects
-Seriously, connect Alexa to the API of some website you love to use (like GitHub) and see how amazing it is to build your own intergrations. [Read the library's documentation here]().
+Seriously, connect Alexa to the API of some website you love to use (like GitHub) and see how amazing it is to build your own intergrations. [Read the library's documentation here](https://github.com/MayBeTall/Alexa-PHP-Endpoint/tree/master/alexa-endpoint/docs).
