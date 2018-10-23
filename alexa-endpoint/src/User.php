@@ -33,4 +33,15 @@ class User
     {
         return Intent::getSlot($slot);
     }
+	
+    /**
+     * Returns the slot-id stated by the user.
+     * @see Intent::getSlotId
+     * @param string $slot The slot to look for.
+     * @return mixed Returns the value of the intent slot id, or null if there was no slot id defined.
+     */
+    public static function statedId($slot)
+    {
+        return Intent::getSlotId($slot);
+    }
 }
