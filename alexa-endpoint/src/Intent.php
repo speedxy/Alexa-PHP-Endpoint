@@ -75,6 +75,22 @@ class Intent
             return null;
         }
     }
+    
+    /**
+     * Gets the id of an intent slot.
+     * @param  string $slot The name of the slot to check for.
+     * @return mixed The id of the intent slot, or null if not found.
+     */
+    public static function getSlotId($slot)
+    {
+        if (self::hasSlot($slot)) {
+            error_log($slot);
+            return self::$slots->{$slot}->resolutions->resolutionsPerAuthority[0]->values[0]->value->id;
+        } else {
+            return null;
+        }
+    }
+
 
     /**
      * @param  string $name The name of the intent to listen for.
