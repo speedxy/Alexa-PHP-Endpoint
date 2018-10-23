@@ -77,9 +77,9 @@ class Alexa
                 "outputSpeech"=>(object) array (
                     "type"=>$type,
                     $property=>$text
-                )
-            ),
-            "shouldEndSession"=>$endSession
+                ),
+                "shouldEndSession"=>$endSession
+            )
         );
 
         // Append it to the Response and send it to Alexa
